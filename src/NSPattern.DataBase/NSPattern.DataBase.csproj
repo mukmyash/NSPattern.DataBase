@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <Description>Interface and abstract class for database pattern</Description>
+    <Authors>Mukmyash</Authors>
+    <PackageId>NSPattern.DataBase</PackageId>
+    <AssemblyName>NSPattern.DataBase</AssemblyName>
+    <PackageProjectUrl>https://github.com/mukmyash/NSPattern.DataBase.git</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mukmyash/NSPattern.DataBase.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>pattern, unitOfWork-pattern, DataBase, net-core</PackageTags>
+    <PackageReleaseNotes>Add realization UnitOfWork Pattern</PackageReleaseNotes>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NSPattern" Version="3.0.0"/>
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.0"/>
+  </ItemGroup>
+
+</Project>
